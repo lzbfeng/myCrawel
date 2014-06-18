@@ -1,0 +1,13 @@
+[basicConfig]
+crawelBasePath = /home/hadoop/crawelData
+[csdn]
+startPageURL = http://www.csdn.net/
+document = ^https?://(www\.csdn\.net/article/2.*|blog\.csdn\.net/.*/article/.*)
+naviContains = ^https?://((www|news|cloud|mobile|sd|programmer)\.csdn\.net/?.*|blog\.csdn\.net/(mobile|web|enterprise|code|www|database|system|cloud|software|other|)/column.html\?page=\d+)
+naviNotContains = .*/tag/|download
+
+[xinli001]
+startPageURL = http://www.xinli001.com/
+document =^https?://www\.xinli001\.com/(daka/.*/study/.*|info/\d+/)
+naviContains = ^https?://www\.xinli001\.com/(daka/\?p=\d|info/(\D+/)?)?$
+naviNotContains = .*/tag/|download
