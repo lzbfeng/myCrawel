@@ -1,4 +1,3 @@
 myCrawel
 ========
-
-这是一个爬虫程序，使用了多线程、多进程技术。尚需完善。
+This is my first crawel using multithreading and multiprocessing, but there are a lot of problems now to perfect.
